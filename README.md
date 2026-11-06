@@ -1,7 +1,7 @@
 # Crownfield Eye Hospital Database
 
 ## Project Overview
-This repository contains the individual database development work for the CPU4:103 Database Development assignment. The project focuses on designing and implementing a relational database for Crownfield Eye Hospital NHS Foundation Trust using MySQL.
+This repository contains my individual database development work for the CPU4:103 Database Development assignment. The project focuses on designing and implementing a relational database for Crownfield Eye Hospital NHS Foundation Trust using MySQL.
 
 ## Database Implementation
 The database contains 11 related tables:
@@ -18,26 +18,26 @@ The database contains 11 related tables:
 - Prescription_Item
 - FollowUpPlan
 
-The database uses primary keys, foreign keys and constraints to support data integrity and relationships between tables.
-
 ## Repository Contents
 
-| File | Description |
+| File or Folder | Description |
 |---|---|
 | `01_schema.sql` | Creates the database, tables and sample data. |
-
-Further SQL scripts, testing evidence and database diagrams will be added as the project progresses.
-
-## How to Run
-1. Open MySQL Workbench.
-2. Open `01_schema.sql`.
-3. Execute the script.
-4. Check that the database and tables have been created successfully.
+| `02_individual_queries.sql` | Individual SQL queries, including GROUP BY, JOIN and subqueries. |
+| `03_Procedure_and_Trigger.sql` | Stored procedures and triggers. |
+| `04_Security_Controls.sql` | Database security controls and user roles. |
+| `05_Admin_Test.sql` | Administrator testing. |
+| `06_Doctor_Test.sql` | Doctor permission testing. |
+| `07_ERD/` | Contains the conceptual model, logical model and final relational schema diagrams. |
 
 ## Tools Used
 - MySQL
 - MySQL Workbench
 - GitHub
+- Draw.io (diagrams.net)
+
+## How to View the Diagrams
+Open the `.drawio` files from the `07_ERD` folder using https://app.diagrams.net/.
 
 ## Individual Contribution
-This repository is used to organise and present my individual database development work for the CPU4:103 assignment.
+This repository presents my individual database development work for the CPU4:103 assignment.
